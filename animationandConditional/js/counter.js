@@ -1,7 +1,8 @@
 let counter = 0;
 let xPos = 0;
 function setup() {
-    createCanvas(800, 600);
+    background(0)
+    createCanvas(800, 400);
 
 }
 function draw() {
