@@ -3,7 +3,6 @@ let xPos = 0;
 function setup() {
     background(0)
     createCanvas(800, 400);
-
 }
 function draw() {
     background(0)
