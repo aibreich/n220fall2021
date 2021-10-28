@@ -10,10 +10,10 @@ function doGuess() {
     if(guess == 16) {
         dvOutput.innerHTML = "Correct!";
     }
-    if(guess <= 16) {
+    if(guess <= 15) {
         dvOutput.innerHTML = "Too low!";
     }
-    if(guess >= 16) {
+    if(guess >= 17) {
         dvOutput.innerHTML = "Too High!";
     }
 }
